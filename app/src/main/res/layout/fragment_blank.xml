@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_155"
+        android:background="@drawable/forest_green_bg"
+        android:layout_marginHorizontal="@dimen/dp_20"
+        android:layout_gravity="center"
+        android:text="BLANK FRAGMENT"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        style="@style/Text.Roboto.Bold.26"
+        android:gravity="center"/>
+
+</FrameLayout>

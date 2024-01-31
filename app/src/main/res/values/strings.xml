@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MentalHealth</string>
+
+    <string name="welcome">Good %s, %s!</string>
+    <string name="howYouFeeling">How are you feeling today ?</string>
+    <string name="itIsBetter">“It is better to conquer yourself than to win a thousand battles”</string>
+    <string name="happy">Happy</string>
+    <string name="session">Upcoming Session</string>
+    <string name="allSession">All Sessions</string>
+    <string name="job">Msc in Clinical Psychology</string>
+    <string name="nameJob">Sahana V, Msc in Clinical Psychology</string>
+    <string name="name">Sahana V</string>
+    <string name="journal">Journal</string>
+    <string name="decline">decline</string>
+    <string name="accept">accept</string>
+    <string name="long_message">Hello, are you man</string>
+    <string name="time">7:30 PM - 8:30 PM</string>
+    <string name="join">Join Now</string>
+    <string name="library">Library</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="camera">Camera</string>
+    <string name="comments">Comments</string>
+    <string name="user">User</string>
+    <string name="wellness_hub">Wellness Hub</string>
+    <string name="_5">5</string>
+    <string name="trending">Trending</string>
+    <string name="message_txt"><![CDATA[Is there a therapy which can cure crossdressing & bdsm compulsion?]]></string>
+    <string name="coal_dingo">Coal Dingo</string>
+    <string name="hours">%s hrs ago</string>
+</resources>

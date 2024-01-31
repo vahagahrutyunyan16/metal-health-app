@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.session.SessionFragment">
+
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_16">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imvCircularWithStroke"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="@dimen/dp_44"
+            android:padding="@dimen/dp_4"
+            android:src="@drawable/ic_the_rock"
+            app:shapeAppearanceOverlay="@style/Circular"
+            app:strokeColor="@color/persian_red"
+            app:strokeWidth="@dimen/dp_4" />
+
+<!--        <androidx.appcompat.widget.AppCompatImageView-->
+<!--            android:id="@+id/ivBadge"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:badgeTextColor="@color/orange"-->
+<!--            android:layout_gravity="end"-->
+<!--            android:actionLayout="@layout/cart_action"-->
+<!--            app:srcCompat="@drawable/ic_ring" />-->
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_ring" />
+
+            <TextView
+                android:id="@+id/tvBadgeCount"
+                style="@style/Text.Roboto.Medium.12"
+                android:layout_width="@dimen/dp_21"
+                android:layout_height="@dimen/dp_21"
+                android:layout_gravity="end|top"
+                android:layout_marginStart="@dimen/dp_16"
+                android:layout_marginBottom="@dimen/dp_16"
+                android:background="@drawable/badge_bg"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/white" />
+        </FrameLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_155"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/old_lace_bg"
+        android:gravity="center|start"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_16">
+
+        <TextView
+            style="@style/Text.CafeNair.Black.22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/session" />
+
+        <TextView
+            android:id="@+id/tvNameAndJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_6"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/nameJob"
+            android:textColor="@color/cafe_noir"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tvDateTime"
+            style="@style/Text.Roboto.Medium.12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_6"
+            android:text="@string/time"
+            android:textColor="@color/cafe_noir" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBookNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@drawable/ic_play"
+            android:drawablePadding="@dimen/dp_8"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/join"
+            android:textAllCaps="false"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/sp_16" />
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_26"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Text.DarkPurple.Medium.18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:drawableEnd="@drawable/ic_arrow_down"
+            android:drawablePadding="@dimen/dp_6"
+            android:text="@string/allSession" />
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center|end"-->
+        <!--            android:src="@drawable/ic_vector" />-->
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSession"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+</LinearLayout>

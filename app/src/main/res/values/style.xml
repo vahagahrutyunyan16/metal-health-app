@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Text.Roboto.Regular" parent="">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Text.Roboto.Medium" parent="">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="Text.Roboto.Bold" parent="">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="Text.Roboto.Black" parent="">
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+
+    <style name="Text.DarkPurple.Medium" parent="Text.Roboto.Medium">
+        <item name="android:textColor">@color/dark_purple</item>
+    </style>
+
+    <style name="Text.CafeNair.Black" parent="Text.Roboto.Black">
+        <item name="android:textColor">@color/cafe_noir</item>
+    </style>
+
+    <style name="Text.CafeNair.Medium" parent="Text.Roboto.Medium">
+        <item name="android:textColor">@color/cafe_noir</item>
+    </style>
+
+    <style name="Text.CafeNair.Regular" parent="Text.Roboto.Regular">
+        <item name="android:textColor">@color/cafe_noir</item>
+    </style>
+
+    <style name="Text.DarkSilver.Regular" parent="Text.Roboto.Regular">
+        <item name="android:textColor">@color/dark_silver</item>
+    </style>
+
+    <style name="Text.DarkPurple.Medium.12" parent="Text.DarkPurple.Medium">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Text.Roboto.Medium.12" parent="Text.Roboto.Medium">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Text.CafeNair.Regular.12" parent="Text.CafeNair.Regular">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Text.DarkSilver.Regular.12" parent="Text.DarkSilver.Regular">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Text.CafeNair.Medium.14" parent="Text.CafeNair.Medium">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="Text.Roboto.Regular.14" parent="Text.Roboto.Regular">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="Text.Roboto.Bold.14" parent="Text.Roboto.Bold">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="Text.DarkPurple.Medium.16" parent="Text.DarkPurple.Medium">
+        <item name="android:textSize">@dimen/dp_16</item>
+    </style>
+
+    <style name="Text.DarkPurple.Medium.18" parent="Text.DarkPurple.Medium">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="Text.Roboto.Black.18" parent="Text.Roboto.Black">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="Text.DarkPurple.Medium.26" parent="Text.DarkPurple.Medium">
+        <item name="android:textSize">@dimen/dp_26</item>
+    </style>
+
+    <style name="Text.Roboto.Bold.26" parent="Text.Roboto.Bold">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Text.Roboto.Bold.16" parent="Text.Roboto.Bold">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.CafeNair.Black.22" parent="Text.CafeNair.Black">
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="Circular">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:contentInsetStart">@dimen/dp_0</item>
+        <item name="contentInsetStart">@dimen/dp_0</item>
+        <item name="android:contentInsetEnd">@dimen/dp_0</item>
+        <item name="contentInsetEnd">@dimen/dp_0</item>
+    </style>
+
+</resources>

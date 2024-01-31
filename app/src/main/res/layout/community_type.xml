@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flBackground"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dp_38"
+    android:layout_marginLeft="@dimen/dp_26"
+    android:background="@drawable/orange_bg"
+    android:backgroundTint="@color/orange_crayola">
+
+    <TextView
+        android:id="@+id/tvText"
+        style="@style/Text.Roboto.Bold.14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="@dimen/dp_16"
+        android:text="@string/trending"
+        android:textColor="@color/lotion" />
+
+
+</FrameLayout>
